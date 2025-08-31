@@ -1,0 +1,61 @@
+.features {
+  max-width: 400px;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: white;
+  border: 4px dashed #ccc;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.features:hover {
+  opacity: 80%;
+}
+
+.close-hints {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='black' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none'><line x1='18' y1='6' x2='6' y2='18'/><line x1='6' y1='6' x2='18' y2='18'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1.2rem;
+  opacity: 0.6;
+}
+
+.close-hints:hover {
+  opacity: 1;
+}
+
+.hints-heading {
+  margin: 0;
+  padding: 1rem 0 1rem;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  padding-left: 1rem;
+}
+
+.list-item {
+  margin: 0;
+  padding: 0.25rem 0;
+}
+
+.hints-open {
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 44);
+  border-radius: 0;
+  font-size: 1rem;
+  cursor: pointer;
+}

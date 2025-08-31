@@ -1,0 +1,77 @@
+.header {
+}
+
+.form {
+  position: relative;
+}
+
+.new-todo {
+  width: 75%;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 24px;
+  font-style: italic;
+  outline: 0;
+}
+
+.form:has(.new-todo:focus) {
+  outline: 1px solid #b83f45;
+}
+
+.new-todo:not(:placeholder-shown) {
+  font-style: normal;
+}
+
+.difficulty {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  display: flex;
+  gap: 0;
+  align-items: center;
+}
+
+.radio-label {
+  height: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.radio-label:first-of-type {
+  padding-left: 1.5rem;
+}
+
+.radio-label:last-of-type {
+  padding-right: 1.5rem;
+}
+
+.difficulty-level {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0;
+  border: 1.25px solid #b83f45;
+  border-radius: 50%;
+  appearance: none;
+}
+
+.easy {
+  background-color: #00e436;
+}
+
+.medium {
+  background-color: #ffec27;
+}
+
+.hard {
+  background-color: #ff004d;
+}
+
+.crossed {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none'><line x1='18' y1='6' x2='6' y2='18'/><line x1='6' y1='6' x2='18' y2='18'/></svg>");
+}

@@ -1,0 +1,38 @@
+.footer {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.todo-count {
+  min-width: 70px;
+}
+
+.filters {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  list-style-type: none;
+}
+
+.button {
+  padding: 3px 7px;
+  background-color: white;
+  border: 0;
+  border-radius: 3px;
+  font-size: inherit;
+}
+
+.button:disabled {
+  opacity: 50%;
+}
+
+.selected {
+  border: 1px solid #b83f45;
+}
+
+.disabled {
+}
