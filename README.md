@@ -2,24 +2,22 @@
 
 URL: https://144307.github.io/todo-app/
 
-## Installation
+## Инструкция для запуска
 
-To install the project dependencies, run:
+Установка зависимостей
 
 ```bash
 npm install
 ```
 
-## Running Tests
+Запуск приложения
 
-To run the test suite, use:
+```bash
+npm run start
+```
+
+## Запуск тестов
 
 ```bash
 npm test
-```
-
-For watching tests during development:
-
-```bash
-npm run test:watch
 ```
